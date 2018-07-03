@@ -47,6 +47,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="PagedList, Version=1.17.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\PagedList.1.17.0.0\lib\net40\PagedList.dll</HintPath>
+    </Reference>
+    <Reference Include="PagedList.Mvc, Version=4.5.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\PagedList.Mvc.4.5.0.0\lib\net40\PagedList.Mvc.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -159,15 +165,44 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\PagedList.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Image\DaladaMaligawa.jpg" />
+    <Content Include="Image\Panorama\Abhayagiridagaba.jpg" />
+    <Content Include="Image\Panorama\AukanaBuddhaStatue.jpg" />
+    <Content Include="Image\Panorama\GalViharaya.jpg" />
+    <Content Include="Image\Panorama\IsurumuniyaViharaya.jpg" />
+    <Content Include="Image\Panorama\JethawanaramayaDagaba.jpg" />
+    <Content Include="Image\Panorama\KuttamPokuna.jpg" />
+    <Content Include="Image\Panorama\LankatilakaViharaya.jpg" />
+    <Content Include="Image\Panorama\MirisawetiyaDagaba.jpg" />
+    <Content Include="Image\Panorama\Ruwanweliseya.jpg" />
+    <Content Include="Image\Panorama\SamadhiBuddhaStatue.jpg" />
+    <Content Include="Image\Panorama\Sandakadapahana.jpg" />
+    <Content Include="Image\Panorama\ThuparamayaDagaba.jpg" />
+    <Content Include="Image\Photo\Abhayagiri dagaba.jpg" />
+    <Content Include="Image\Photo\Aukana Buddha Statue.jpg" />
+    <Content Include="Image\Photo\Gal Viharaya.jpg" />
+    <Content Include="Image\Photo\Isurumuniya Viharaya.jpg" />
+    <Content Include="Image\Photo\Jethawanaramaya Dagaba.jpg" />
+    <Content Include="Image\Photo\Kuttam Pokuna.jpg" />
+    <Content Include="Image\Photo\Lankatilaka Vihara.jpg" />
+    <Content Include="Image\Photo\Mirisawetiya Dagaba.jpg" />
+    <Content Include="Image\Photo\Ruwanweliseya.jpg" />
+    <Content Include="Image\Photo\Samadhi Buddha Statue.jpg" />
+    <Content Include="Image\Photo\Sandakada pahana.jpg" />
+    <Content Include="Image\Photo\Thuparamaya Dagaba.jpg" />
+    <Content Include="Image\watadageya.jpg" />
+    <Content Include="Image\Yapahuwa.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <None Include="Properties\PublishProfiles\slhistoricaltour - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -179,6 +214,8 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\photo-sphere-viewer.js" />
+    <Content Include="Scripts\three.min.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -193,6 +230,7 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\VirtualView.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
