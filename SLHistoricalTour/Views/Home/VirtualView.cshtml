@@ -8,8 +8,8 @@
 
     <title>VirtualView</title>
     <meta name="viewport" content="initial-scale=1.0" />
-    
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="~/Scripts/three.min.js"></script>
     <script src="~/Scripts/photo-sphere-viewer.js"></script>
     <style>
@@ -28,7 +28,17 @@
     </style>
 </head>
 <body>
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg navbar-light bg-light">
 
+        @Html.ActionLink("Back", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+        <img style="height:60px; width:auto;" src="~/Image/download.png" / >
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+    </nav>
+    
     <div id="container"></div>
     <script>
             var div = document.getElementById('container');
@@ -42,10 +52,10 @@
                 },
             });
     </script>
-    
 
-    
-    
+
+
+
 </body>
 </html>
 

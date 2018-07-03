@@ -171,6 +171,7 @@
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Image\DaladaMaligawa.jpg" />
+    <Content Include="Image\download.png" />
     <Content Include="Image\Panorama\Abhayagiridagaba.jpg" />
     <Content Include="Image\Panorama\AukanaBuddhaStatue.jpg" />
     <Content Include="Image\Panorama\GalViharaya.jpg" />
